@@ -1,0 +1,493 @@
+/*
+Stili Kryesor
+	-Seksionet
+	-Globalet(html body dhe div)
+	-Header
+*/
+@import url('animate.css');
+@import url('all.min.css');
+
+/* Globalet */
+html,body,div {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times;
+}
+
+h1,li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #030007;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	text-align: center;
+	background: #333;
+	max-width: 1040px;
+	margin: 0 auto;
+	line-height: 80px;
+	position: relative;
+}
+
+header:before {
+	content:' ';
+	background: #030007;
+	width: 100%;
+	height: 8px;
+	position: absolute;
+	left: 0;
+	top: 80%;
+}
+
+header h1 {
+	color: #fff;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10px 2px 10px; 
+	border-right: 1px solid #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+nav ul li a:hover {
+	color: orange;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+/*komanda last child sherben per te zgjedhur psh tekstin e fundit */
+nav ul li:last-child a{
+	border: 0;
+}
+
+.rr_sociale {
+	float: right;
+	padding-right: 25px;
+	line-height: 80px;
+}
+
+.rr_sociale li a {
+	background: #000;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 15px;
+	border: 0;
+}
+
+.rr_sociale li:nth-child(1) a:hover {
+	background: #0dc0c0;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+.rr_sociale li:nth-child(2) a:hover {
+	background: #0dc0c0;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+.rr_sociale li:nth-child(3) a:hover {
+	background: #C00D0D;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+.rr_sociale li:nth-child(4) a:hover {
+	background: #CA1515;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+.rr_sociale li:nth-child(5) a:hover {
+	background: #F29708;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+/* Permbajtja  */
+
+.info {
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.sherbimi article {
+	width: 24.7%;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.sherbimi article:hover {
+	background: #0dc0c0;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+	cursor: pointer;
+}
+
+.sherbimi article h1 {
+	font-size: 40px;
+}
+
+.sherbimi article:nth-child(1) {
+	background: #5a88ca;
+}
+
+.sherbimi article:nth-child(1):hover {
+	background: #fff;
+	color: #5a88ca;;
+	animation: bounce 1s;
+}
+
+.sherbimi article:nth-child(2) {
+	background: #ffd900;
+}
+
+.sherbimi article:nth-child(2):hover {
+	background: #fff;
+	color: #ffd900;
+	animation: shake 1s;
+}
+
+.sherbimi article:nth-child(3) {
+	background: #fa8072;
+}
+
+.sherbimi article:nth-child(3):hover {
+	background: #fff;
+	color: #fa8072;
+	animation: wobble 1s;
+}
+
+.sherbimi article:nth-child(4) {
+	background: #4abebd;
+}
+
+.sherbimi article:nth-child(4):hover {
+	background: #fff;
+	color: #4abebd;
+	animation: tada 1s;
+}
+
+/* Shporta */
+
+.shporta {
+	width: 100%;
+	text-align: right;
+	background: #0dc0c0;
+	color: #fff;
+}
+
+.shporta p:first-child {
+	float: left;
+	font-family: 'Open Sans',sans-serif;
+	text-transform: uppercase;
+}
+
+.shporta p:first-child:hover {
+	cursor: pointer;
+	color: #1d1d1d;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+}
+
+.shporta p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.shporta a {
+	margin: 0 10px 0 30px;
+	text-decoration: none;
+	color: #CC1717;
+}
+
+.shporta a:hover {
+	color: #1d1d1d;
+	cursor: pointer;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+}
+
+/* Foto me slideshow */
+
+.slideshow-container {
+	width: 1040px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.slideshow-container button:focus {
+	border: 0;
+	outline: 0;
+	animation: tada 1s;
+}
+
+#left {
+    position: absolute;
+    top: 45%;
+    background: transparent;
+    border: 0;
+    font-size: 25px;
+    padding: 10px 14px;
+    color: #fff;
+}
+
+#right {
+    position: absolute;
+    top: 45%;
+    background: transparent;
+    right: 0;
+    font-size: 25px;
+    border: 0;
+    padding: 10px 14px;
+    color: #fff;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 480px;
+}
+
+.slideshow {
+    display: none;
+    animation: bounceIn 1s;
+	position: relative;
+}
+
+.slideshow .permbajtja-sw {
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	width: 400px;
+	padding: 20px;
+	left: 25%;
+	top: 25%;
+	text-align: center;
+}
+
+.slideshow .permbajtja-sw h1 {
+	padding: 20px 0
+}
+/* Buttonat */
+
+.i_kuq {
+	font-family: 'Open Sans', sans-serif;
+	background: #B81313;
+	color: #fff;
+	padding: 10px;
+	border-radius: 2px;
+	font-size: 18px;
+	border: 0;
+	text-decoration: none;
+	border-radius:15px;
+}
+
+.i_kuq:hover {
+	cursor: pointer;
+	color: #1d1d1d;
+	animation: 1s tada;
+}
+
+.i_gjelbert {
+	font-family: 'Open Sans', sans-serif;
+	background: #35AD28;
+	color: #fff;
+	padding: 10px;
+	border-radius: 2px;
+	font-size: 18px;
+	border: 0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.i_gjelbert:hover {
+	cursor: pointer;
+	color: #1d1d1d;
+	animation: 1s tada;
+}
+
+
+/* Artikujt */
+
+
+.artikujt div {
+	background: #fff;
+	width: calc(50% - 100px);
+	height: 290px;
+	padding: 50px;
+	display: inline-block;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: cover;	
+	margin: 20px 0;
+}
+
+.artikujt div:nth-child(odd) {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.artikujt div:nth-child(even) {
+	float: left;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.produktet {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.produktet a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.produktet a:hover {
+	color: #0dc0c0;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+/* Produktet */
+
+.produkte {
+	margin: 10px 0;
+}
+
+.produkte article {
+	background: #fff;
+	box-shadow: 1px 1px 1px #fff;
+	width: 24%;
+	margin: 0.25%;
+	padding: 10px 0 20px 0;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	border-radius:30px;
+}
+
+.produkte article .imazhi {
+	width: 100%;
+	height: 290px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 20px 0;
+}
+
+.produkte article:hover .imazhi {
+	animation: 0.2s zoomIn;
+}
+
+.produkte article .imazhi:hover .detajet {
+	display: block;
+	animation: zoomInUp 0.6s;
+}
+
+.produkte article .imazhi .detajet {
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 85%;
+	top: 0;
+	color: #fff;
+	display: none;
+}
+
+.produkte article .imazhi .detajet p,h1 {
+	padding: 5px 0;
+}
+
+.produkte article .imazhi .detajet a {
+	position: absolute;
+	top: 80%;
+	left: 35%;
+}
+
+/* Faqet */
+
+.faqet {
+	background: transparent;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.faqet ul li {
+	display: inline-block;
+	color: #fff;
+}
+
+.faqet ul li a {
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 5px;
+	color: #fff;
+}
+
+.faqet ul li a:hover {
+	border: 2px solid #fff;
+	padding: 5px;
+	background: #fff;
+	color: #1d1d1d;
+	-webkit-transition: 0.25s all;
+	-o-transition: 0.25s all;
+	transition: 0.25s all;
+}
+
+/* Footer */
+footer {
+	background: #3A3939;
+	border-top: 2px dotted #989898;
+	padding: 5px;
+	text-align: center;
+	font-size:10px;
+	color: #fff;
+}

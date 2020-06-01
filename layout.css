@@ -1,0 +1,133 @@
+
+p{ font-weight:normal; font-style:normal; font-size:15px; }
+
+
+
+
+
+/* Footer*/
+#footer
+{
+padding:30px 0; 
+font-size:12px;
+line-height:1.6em;
+}
+#footer::after
+{
+display:block;
+clear:both;
+content:"";
+}
+#footer h2.title
+{
+margin-bottom:30px;
+}
+
+
+
+/* Quick Links */
+nav 
+{
+margin:10px 0 0 0; 
+padding:0 0 10px 0;
+}
+nav a
+{
+padding:0 0 0 10px; 
+background-position:left center;
+}
+
+
+
+/* Copyright--*/
+#copyright
+{
+padding:20px 0;
+}
+#copyright p
+{
+margin:0; padding: 0;
+}
+
+
+
+/* Forms-*/
+fieldset
+{
+margin:0; 
+padding:0; 
+border:none;
+}
+#footer input,textarea
+{
+display:block; 
+width:205px; 
+margin:0 0 10px 0;
+padding:10px;
+border:none;
+}
+#footer textarea
+{
+height:90px;
+overflow:auto;
+}
+#footer button
+{
+padding:8px; 
+font-size:13px;
+font-weight:bold; 
+text-transform:uppercase;
+border:none;
+cursor:pointer;
+}
+
+
+.wrapper a
+{
+color:rgb(190, 178, 0);
+background-color:transparent;
+}
+.row1
+{
+color:#979797; 
+border-color:rgb(238, 216, 15);
+}
+.row3
+{
+color:#979797; 
+background-color:#303030;
+border-color:#000000;
+}
+.row3 a
+{
+color:rgb(231, 188, 108); 
+background-color:#303030;
+}
+.row4
+{
+border-color:#3A3A3A;
+}
+.row4, .row4 a
+{
+color:#979797; 
+background-color:#2B2B2B;
+}
+
+
+
+
+/* Footer */
+#footer nav
+{
+border-bottom:1px solid #404040;
+}
+#footer input,textarea
+{
+background-color:#222222;
+}
+#footer button
+{
+color:rgba(235, 201, 92); 
+background-color:#404040;
+}
+

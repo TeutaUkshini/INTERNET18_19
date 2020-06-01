@@ -1,0 +1,115 @@
+#top{
+    width:960px;
+    display: table;
+    padding:2% 3%;   
+}
+#on{
+    border:1px solid whitesmoke;
+    width:55%;
+    float: left;
+    padding:4px;
+    position: relative; 
+    margin: 0 auto;
+    margin-top: 1%;
+}
+#on .big {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97.5%;
+  margin-bottom: 1.5%;
+  text-indent: 10px;
+}
+#pm{
+    width:45%;
+    float: right;
+}
+#in{ 
+    width: 43%;
+    float: right;
+}
+#out{ 
+    padding:4px;
+    position: relative; 
+    margin: 0 auto;}
+#row{ 
+    padding:4px;
+    position: relative; 
+    margin: 0 auto;}
+#column{
+     padding:4px;
+    position: relative; 
+    margin: 0 auto;
+}
+#out .pm {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 1px;
+  margin-bottom: 2%;
+  line-height: 30%;
+  
+}
+#row .pm {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 1px;
+  margin-bottom: 2%;
+  line-height: 30%;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(70, 92, 99);
+    position: inherit;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0.2px white;
+}
+#left{
+    float:center;
+    font-size: 25px;
+}
+.all{
+    margin: auto;
+    width: 1000px;
+    background-color:lightgray;
+}
+.off{
+    margin: auto;
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.bigger{
+    font-size: 30px;
+  
+}
+.la{
+    font-size: 20px;
+}
+.now{
+    font-size: 30px;
+}
+.lis{
+    font-size: 16px;
+    font-style: italic;
+}
+.top{
+    font-size: 30px;
+}
